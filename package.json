@@ -1,0 +1,21 @@
+{
+  "name": "simple-cors-proxy",
+  "version": "1.0.0",
+  "description": "A simple CORS proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "cors",
+    "proxy",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "proxy-from-env": "^1.1.0"
+  }
+}
